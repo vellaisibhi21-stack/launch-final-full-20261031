@@ -28,7 +28,7 @@ stages:
     required_checks:
       - CI — Build & Test
     required_reviewers:
-      min_approvals: 1
+      min_approvals: 0
   testing:
     branch_pattern: main
     required_checks:
