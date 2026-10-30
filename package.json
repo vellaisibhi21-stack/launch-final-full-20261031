@@ -1,0 +1,10 @@
+{
+  "name": "launch-final-full-20261031",
+  "version": "1.0.0",
+  "description": "LaneSync launch test project",
+  "main": "src/greet.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
