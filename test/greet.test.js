@@ -11,3 +11,7 @@ test('falls back to world', () => {
   assert.strictEqual(greet(''), 'Hello, world!');
   assert.strictEqual(greet(), 'Hello, world!');
 });
+
+test('trims surrounding whitespace', () => {
+  assert.strictEqual(greet('  Ada  '), 'Hello, Ada!');
+});
